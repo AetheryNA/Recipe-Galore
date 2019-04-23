@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 const App = () => {
@@ -10,9 +9,11 @@ const App = () => {
 
   return (
     <div className="App">
-      <form>
-        <input type="text" />
-        <button type="submit"> </button>
+      <form className="search-form">
+        <input className="search-bar" type="text" />
+        <button className="search-button" type="submit">
+          Search
+        </button>
       </form>
     </div>
   );
